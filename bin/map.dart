@@ -1,0 +1,23 @@
+void main () {
+  Map<String, String> person = {};
+  var product = Map<String, String>();
+  var address = <String, String>{};
+
+  print(person);
+  print(product);
+  print(address);
+
+  //manipulasi map
+  var name = <String, String>{};
+  name ['first'] = 'Suci';
+  name ['middle'] = 'indah';
+  name ['last'] = 'hartati';
+
+  print(name['frist']);
+
+  name['midle'] = 'tati';
+  print(name);
+
+  name.remove('last');
+  print(name);
+}
