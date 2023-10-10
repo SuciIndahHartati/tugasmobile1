@@ -1,3 +1,4 @@
+void main() {
 var upperFunction =(String name) {
   return name.toUpperCase();
 };
@@ -9,7 +10,7 @@ print(lowerFunction('Suci'));
 
 //anonymous function as parameter
 
-/*
+
 void sayHello(String name, String Function(String) filter) {
   var filteredName = filter(name);
   print('Hi $filteredName');
@@ -21,4 +22,4 @@ void main() {
   });
   sayHello('Suci Indah Hartati', (String name) => name.toLowerCase());
 }
-*/
+}
