@@ -1,7 +1,7 @@
 class Customer {
-  String firstName = '';
-  String lastName = '';
-  String fullName = '';
+  String firstName = 'suci';
+  String lastName = 'indah';
+  String fullName = 'suci indah';
 
   Customer(this.fullName)
       : firstName = fullName.split("")[0],
